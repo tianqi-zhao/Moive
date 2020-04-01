@@ -491,9 +491,9 @@
     var timeInterval = 2000;
     //定义一个存放照片位置的数组，可以放任意个，在这里放3个
     var arr = new Array();
-    arr[0] = "/assets/img/loginimg/1.jpg";
-    arr[1] = "/assets/img/loginimg/2.jpg";
-    arr[2] = "/assets/img/loginimg/3.jpg";
+    arr[0] = "<%=basePath%>assets/img/loginimg/1.jpg";
+    arr[1] = "<%=basePath%>assets/img/loginimg/2.jpg";
+    arr[2] = "<%=basePath%>assets/img/loginimg/3.jpg";
     setInterval(changeImg, timeInterval);
     function changeImg() {
         if (curIndex == arr.length - 1) {
